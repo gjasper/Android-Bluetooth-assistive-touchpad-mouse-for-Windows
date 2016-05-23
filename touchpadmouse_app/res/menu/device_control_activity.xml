@@ -1,0 +1,44 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_search"
+        android:icon="@drawable/ic_action_bluetooth"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/action_bluetooth" />
+
+    <item
+        android:id="@+id/sensibility_1"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/sensibility1" />
+
+    <item
+        android:id="@+id/sensibility_2"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/sensibility2" />
+
+    <item
+        android:id="@+id/sensibility_3"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/sensibility3" />
+
+    <item
+        android:id="@+id/sensibility_4"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/sensibility4" />
+
+    <item
+        android:id="@+id/sensibility_5"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/sensibility5" />
+
+
+    <item
+        android:id="@+id/menu_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/menu_settings" />
+</menu>
